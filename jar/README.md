@@ -15,9 +15,13 @@ demo.authorization.test2.total.count=50 <br>
 java -jar paypaldemo.jar --spring.config.location=file:///D:/paypaldemo/ --trace 
 
 
-## 3. Open the browser or curl command to run this line.
+## 3. Open the browser or run curl command in another terminal to run this line.
 ### Please note the server port is assumed 8082 which is seen in application.properties file.
+#### For Browser call below link
 http://localhost:8082/paypaldemo/createorder <br>
+
+#### FOR CURL Command
+curl -v http://localhost:8082/paypaldemo/createorder
 
 
 
