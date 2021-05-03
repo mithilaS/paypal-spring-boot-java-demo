@@ -1,4 +1,4 @@
-# Steps to run PayPal demo jar
+# TEST 1 : Steps to run PayPal demo jar
 ## 1. Change config file data to match with Qalara's credentials
 
 demo.client.id={YOUR-CLIENT-ID} <br>
@@ -22,6 +22,8 @@ http://localhost:8082/paypaldemo/createorder <br>
 
 #### FOR CURL Command
 curl -v http://localhost:8082/paypaldemo/createorder
+
+# TEST 2 WIP
 
 
 
