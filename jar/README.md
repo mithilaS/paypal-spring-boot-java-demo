@@ -12,7 +12,7 @@ demo.authorization.test2.total.count=50 <br>
 
 ## 2. Run code using below command. 
 ###  Change the path to the config file location. Use --trace in command too
-java -jar paypaldemo.jar --spring.config.location=file:///D:/paypaldemo/ --trace 
+nohup java -jar paypaldemo.jar --spring.config.location=file:///D:/paypaldemo/ --trace 
 
 
 ## 3. Open the browser or run curl command in another terminal to run this line.
