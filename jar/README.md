@@ -23,7 +23,7 @@ http://localhost:8082/paypaldemo/createorder <br>
 #### FOR CURL Command
 curl -v http://localhost:8082/paypaldemo/createorder
 
-# TEST 2 WIP
+# TEST 2 : Create order and authorize/capture order
 ## 1. Take latest update of config file. Change config file data to match with Qalara's credentials.
 
 ## 2. Run below command to start server
